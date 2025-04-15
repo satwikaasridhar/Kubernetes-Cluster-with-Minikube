@@ -1,5 +1,5 @@
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.20.4/2021-04-12/bin/linux/amd64/kubectl
-# Downloads the kubectl
+# Downloads the kubectl binary for EKS (version 1.20.4) from the AWS S3 bucket and saves it locally as "kubectl"
 
 chmod +x ./kubectl
 # Makes the downloaded kubectl binary executable
